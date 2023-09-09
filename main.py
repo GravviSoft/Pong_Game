@@ -1,4 +1,3 @@
-import random
 import time
 from turtle import Turtle, Screen
 from background import Background
@@ -30,7 +29,7 @@ ball_facing_right = True
 hit_wall = False
 
 while not hit_wall:
-    time.sleep(.07)
+    time.sleep(.09)
     screen.update()
     ball.move_ball()
 
